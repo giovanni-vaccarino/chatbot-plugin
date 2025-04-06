@@ -43,7 +43,7 @@ cd frontend
 npm run dev
 ```
 
-This will start a local development server on http://localhost:5173(this is the standard port, but it might differ if it is already occupied), giving you access to the full chat interface independently.
+This will start a local development server on http://localhost:5173 (this is the standard port, but it might differ if it is already occupied), giving you access to the full chat interface independently.
 
 Upon this time, I've mainly worked at the UI here, to have hot reload, without the need of building the React application and restarting Jenkins every time.
 
