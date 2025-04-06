@@ -1,0 +1,9 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout">
+  <l:layout title="Jenkins AI Assistant" norefresh="true">
+    <l:main-panel>
+      <div id="root"></div>
+      <script type="module" src="${rootURL}/plugin/chatbot-plugin/static/assets/index.js"></script>
+    </l:main-panel>
+  </l:layout>
+</j:jelly>

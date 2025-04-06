@@ -1,0 +1,21 @@
+target
+
+# mvn hpi:run
+work
+
+# frontend build
+src/main/webapp/static/
+
+# VSCode
+./vscode
+
+# IntelliJ IDEA project files
+*.iml
+*.iws
+*.ipr
+.idea
+
+# Eclipse project files
+.settings
+.classpath
+.project
